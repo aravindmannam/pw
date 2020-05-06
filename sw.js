@@ -1,6 +1,6 @@
-self.addEventListener('push',()=>{ 
-    self.registration.sendNotification('text message',{})
-})
+// self.addEventListener('push',()=>{ 
+//     self.registration.sendNotification('text message',{})
+// })
 
 self.addEventListener('push', function (e) {
     var options = {
